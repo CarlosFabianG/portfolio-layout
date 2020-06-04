@@ -143,6 +143,19 @@ nav .menu {
     border: 0;
 }
 
+.section-3 {
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section-3 .grid-item {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-family: var(--font-ibarra-nova);
+}
+
 footer {
     background: var(--grayish-dark-blue);
     height: 80px;
