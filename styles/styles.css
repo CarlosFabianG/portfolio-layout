@@ -33,6 +33,10 @@ nav {
     justify-content: space-between;
 }
 
+nav img {
+    height: 40px;
+}
+
 nav .menu {
     display: flex;
     justify-content: space-around;
@@ -95,6 +99,7 @@ nav .menu {
 }
 
 .about-container {
+    max-height: 600px;
     border: solid red 1px;
     margin-top: 150px;
     display: flex;
@@ -115,10 +120,13 @@ nav .menu {
     font-size: 40px;
     font-family: var(--font-ibarra-nova);
     font-weight: bold;
+    margin: 0;
 }
 
-.about-container p {
+.about-container div {
     line-height: 2;
+    height: 360px;
+    padding: 20px 2px 50px 2px;
 }
 
 .about-container img {
@@ -133,4 +141,37 @@ nav .menu {
     font-size: 12px;
     letter-spacing: .5px;
     border: 0;
+}
+
+footer {
+    background: var(--grayish-dark-blue);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .logo-links {
+    display: flex;
+    margin-left: 10vw;
+    padding-top: 15px;
+    padding-right: 15px;
+    align-items: center;
+}
+
+.logo-links img {
+    color: white;
+    padding-right: 40px;
+}
+footer a {
+    color: white;
+    font-size: 12px;
+    margin-right: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+footer .icons {
+    color: white;
+    margin-right: 120px;
 }
