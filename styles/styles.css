@@ -17,7 +17,7 @@
 
 body {
     font-family: 'Public Sans', sans-serif;
-    
+    background-color: var(--very-light-gray);
     margin: 0;
     padding: 0;
     font-size: 15px;
@@ -60,13 +60,13 @@ nav .menu {
 }
 
 .hero-container .hero-text {
-    height: 357px;
+    height: 317px;
     width: 445px;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .hero-container .hero-text div {
@@ -78,7 +78,7 @@ nav .menu {
 
 .hero-container .hero-text h3 {
     margin: 0;
-    font-size: 40px;
+    font-size: 45px;
     font-family: var(--font-ibarra-nova);
     line-height: 1;
     
@@ -94,10 +94,43 @@ nav .menu {
     border: 0;
 }
 
-section {
-    
+.about-container {
+    border: solid red 1px;
+    margin-top: 150px;
+    display: flex;
 }
 
-section img {
+.about-container article {
+    border: solid blue 1px;
+    color: #33323D;
+    width: 350px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8vw;
+}
+
+.about-container h2 {
+    font-size: 40px;
+    font-family: var(--font-ibarra-nova);
+    font-weight: bold;
+}
+
+.about-container p {
+    line-height: 2;
+}
+
+.about-container img {
     height: 600px;
+}
+
+.about-container button {
+    height: 48px;
+    width: 200px;
+    background: var(--dark-blue);
+    color: white;
+    font-size: 12px;
+    letter-spacing: .5px;
+    border: 0;
 }
