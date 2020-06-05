@@ -100,13 +100,13 @@ nav .menu {
 
 .about-container {
     max-height: 600px;
-    border: solid red 1px;
     margin-top: 150px;
     display: flex;
 }
 
 .about-container article {
-    border: solid blue 1px;
+    border-top: solid #33323D 1px;
+    border-bottom: solid #33323D 1px;
     color: #33323D;
     width: 350px;
     font-size: 16px;
@@ -136,24 +136,41 @@ nav .menu {
 .about-container button {
     height: 48px;
     width: 200px;
-    background: var(--dark-blue);
-    color: white;
+    background: var(--very-light-gray);
+    border: solid #33323D 1px;
+    color: #33323D;
     font-size: 12px;
     letter-spacing: .5px;
-    border: 0;
 }
 
 .section-3 {
     height: 300px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 1fr;
 }
 
-.section-3 .grid-item {
+.section-3 .grid-item-1 {
     display: flex;
     align-items: center;
     font-size: 40px;
     font-family: var(--font-ibarra-nova);
+}
+
+.grid-item-3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.grid-item-3 button {
+    height: 48px;
+    width: 162px;
+    background: var(--very-light-gray);
+    border: solid #33323D 1px;
+    color: #33323D;
+    font-size: 12px;
+    letter-spacing: .5px;
+
 }
 
 footer {
