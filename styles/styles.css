@@ -170,7 +170,52 @@ nav .menu {
     color: #33323D;
     font-size: 12px;
     letter-spacing: .5px;
+}
 
+.section-portfolio-odd {
+    
+    display: flex;
+}
+
+.section-portfolio-odd article{
+    border-top: solid var(--light-grey) 1px;
+    border-bottom: solid var(--light-grey) 1px;
+    color: #33323D;
+    height: 500px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 6vw;
+}
+
+.section-portfolio-odd h3 {
+    font-family: var(--font-ibarra-nova);
+    color: #33323D;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.section-portfolio-odd button {
+    width: 175px;
+    height: 48px;
+    background: var(--very-light-gray);
+    border: solid #33323D 1px;
+    color: #33323D;
+    font-size: 12px;
+    letter-spacing: .5px;
+}
+
+.section-portfolio-odd article div {
+    height: 150px;
+    margin-bottom: 30px;
+    line-height: 2;
+}
+
+.section-portfolio-evenly {
+    display: flex;
+    margin-top: 10vh;
 }
 
 footer {
