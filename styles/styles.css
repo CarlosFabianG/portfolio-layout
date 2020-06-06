@@ -273,6 +273,7 @@ nav .menu {
     margin-top: 10vh;
     padding-top: 7vh;
     border-top: solid var(--light-grey) 1px;
+    color: #33323D;
 }
 
 .contact-section-1 .title {
@@ -303,6 +304,7 @@ nav .menu {
     padding-top: 7vh;
     border-top: solid var(--light-grey) 1px;
     margin-bottom: 15vh;
+    color: #33323D;
 }
 
 .contact-section-2 .title {
@@ -331,7 +333,6 @@ nav .menu {
 .contact-section-2 form label{
     color: #33323D;
     font-weight: 700;
-    margin-top: 40px;
     margin-bottom: 20px;
 }
 
@@ -339,6 +340,7 @@ nav .menu {
     height: 48px;
     background: var(--light-grey);
     border: 0;
+    margin-bottom: 25px;
 }
 
 .contact-section-2 form .input-large {
