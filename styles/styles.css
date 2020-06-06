@@ -268,6 +268,94 @@ nav .menu {
     letter-spacing: .5px;
 }
 
+.contact-section-1 {
+    display: flex;
+    margin-top: 10vh;
+    padding-top: 7vh;
+    border-top: solid var(--light-grey) 1px;
+}
+
+.contact-section-1 .title {
+    width: 350px;
+}
+
+.contact-section-1 .title h3 {
+    font-family: var(--font-ibarra-nova);
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+.contact-section-1 article {
+    display: flex;
+    justify-content: flex-end;
+    width: 925px;
+}
+
+.contact-section-1 .text {
+    width: 635px;
+    height: 210px;
+    line-height: 2;
+}
+
+.contact-section-2 {
+    margin-top: 10vh;
+    display: flex;
+    padding-top: 7vh;
+    border-top: solid var(--light-grey) 1px;
+    margin-bottom: 15vh;
+}
+
+.contact-section-2 .title {
+    width: 350px;
+}
+
+.contact-section-2 .title h3 {
+    font-family: var(--font-ibarra-nova);
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.contact-section-2 .form {
+    display: flex;
+    justify-content: flex-end;
+    width: 925px;
+}
+
+.contact-section-2 form {
+    display: flex;
+    flex-direction: column;
+    width: 635px;
+}
+
+.contact-section-2 form label{
+    color: #33323D;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.contact-section-2 form .input-medium {
+    height: 48px;
+    background: var(--light-grey);
+    border: 0;
+}
+
+.contact-section-2 form .input-large {
+    height: 96px;
+    background: var(--light-grey);
+    border: 0;
+    margin-bottom: 20px;
+}
+
+.contact-section-2 form button {
+    width: 200px;
+    height: 48px;
+    color: white;
+    background: var(--dark-blue);
+    border: 0;
+}
+
 footer {
     background: var(--grayish-dark-blue);
     height: 80px;
