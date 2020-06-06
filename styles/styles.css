@@ -288,7 +288,8 @@ nav .menu {
 }
 .contact-section-1 article {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
     width: 925px;
 }
 
@@ -298,8 +299,16 @@ nav .menu {
     line-height: 2;
 }
 
+.contact-section-1 .icons{
+    fill: #33323D;
+    margin-top: 15px;
+}
+
+.contact-section-1 .icons img {
+    margin-right: 10px;
+}
 .contact-section-2 {
-    margin-top: 10vh;
+    margin-top: 8vh;
     display: flex;
     padding-top: 7vh;
     border-top: solid var(--light-grey) 1px;
@@ -356,6 +365,9 @@ nav .menu {
     color: white;
     background: var(--dark-blue);
     border: 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 footer {
