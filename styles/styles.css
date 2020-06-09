@@ -266,6 +266,7 @@ nav .menu {
     color: #33323D;
     font-size: 12px;
     letter-spacing: .5px;
+    text-transform: uppercase;
 }
 
 .contact-section-1 {
@@ -403,3 +404,129 @@ footer .icons {
     margin-right: 120px;
     padding-top: 15px;
 }
+
+
+.detail-hero {
+    width: 1110px;
+    margin-bottom: 15vh;
+}
+
+.main-container {
+    display: flex;
+}
+
+.main-container article {
+    height: 460px;
+    border-top: solid var(--light-grey) 1px;
+    border-bottom: solid var(--light-grey) 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-container  h3 {
+    font-family: var(--font-ibarra-nova);
+    color: #33323D;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 5vh;
+}
+
+.main-container article h2 {
+    font-family: var(--font-ibarra-nova);
+    font-size: 40px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.main-container article p {
+    width: 347px;
+    line-height: 2;
+    font-size: 15px;
+    opacity: 80%;
+}
+
+.main-container article span{
+    display: block;
+    color: var(--green-cyan-light);
+    padding-bottom: 20px;
+}
+.main-container article button {
+    width: 178px;
+    height: 48px;
+    background: var(--very-light-gray);
+    border: solid #33323D 1px;
+    color: #33323D;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.project-background {
+    width: 635px;
+    margin-left: 10vw;
+}
+
+.project-background p {
+    line-height: 2;
+    opacity: 80%;
+}
+
+.project-background img {
+    margin-bottom: 5vh;
+}
+
+
+
+
+.previous-next-container {
+    display: flex;
+    border-top: solid var(--light-grey) 1px;
+    border-bottom: solid var(--light-grey) 1px;
+    height: 132px;
+    margin-top: 5vh;
+}
+
+.previous-next-container img {
+    height: 16px;
+}
+
+.previous-next-container p {
+    font-family: var(--font-ibarra-nova);
+    font-size: 32px;
+    margin: 0;
+}
+
+.previous-next-container span {
+    color: #33323D;
+    opacity: 50%;
+    font-size: 15px;
+}
+
+.previous-next-container .left-button {
+    display: flex;
+    align-items: center;
+    width: 555px;
+    border-right: solid var(--light-grey) 1.5px;
+}
+
+.previous-next-container .left-button img {
+    margin-right: 25px;
+}
+
+.previous-next-container .right-button img {
+    margin-left: 25px;
+}
+
+.previous-next-container .right-button div {
+    text-align: end;
+}
+
+.previous-next-container .right-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 555px;   
+}
+
